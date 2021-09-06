@@ -458,7 +458,7 @@ NeuralPiAudioProcessorEditor::NeuralPiAudioProcessorEditor (NeuralPiAudioProcess
     };
 
     addAndMakeVisible(GainLabel);
-    GainLabel.setText("Michael is Learning", juce::NotificationType::dontSendNotification);
+    GainLabel.setText("Gain", juce::NotificationType::dontSendNotification);
     GainLabel.setJustificationType(juce::Justification::centred);
     addAndMakeVisible(LevelLabel);
     LevelLabel.setText("Level", juce::NotificationType::dontSendNotification);
